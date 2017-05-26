@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_green">#27ae39</color>
+    <color name="color_hint">#D0D3D4</color>
+    <color name="clor_black">#000000</color>
+
+    <!-- define -->
+    <color name="color_main">#3197e1</color>
+    <color name="color_black">#000000</color>
+    <color name="color_empty">#a8a8a8</color>
+    <color name="color_blue">#FF31C4E1</color>
+
+    <!--color tab -->
+    <color name="color_tab_profile">#FF4081</color>
+    <color name="color_tab_friend">#5D4037</color>
+    <color name="color_tab_chat">#7B1FA2</color>
+    <color name="color_tab_photo">#FF5252</color>
+    <color name="color_tab_video">#FF9800</color>
+
+    <color name="red">#F44336</color>
+    <color name="item_selected">#90FFFFFF</color>
+    <color name="drop_shadow_color">#66000000</color>
+    <!-- game -->
+    <color name="border_error">#ff6666</color>
+    <color name="error_text">#ff3333</color>
+    <color name="bg_gray">#222931</color>
+    <color name="bg_add_question">#3B4754</color>
+    <color name="gray">#7c7c7c</color>
+    <color name="gray_1">#afafaf</color>
+    <color name="gray_2">#b9b9b9</color>
+</resources>

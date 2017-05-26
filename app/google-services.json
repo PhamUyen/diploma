@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1002649262718",
+    "firebase_url": "https://fir-casestudy.firebaseio.com",
+    "project_id": "fir-casestudy",
+    "storage_bucket": "fir-casestudy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002649262718:android:3e38f2fd20da446d",
+        "android_client_info": {
+          "package_name": "com.uyenpham.diploma.myenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002649262718-lg1a9epcusj4docck5m378pefe82ntnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uyenpham.diploma.myenglish",
+            "certificate_hash": "fb8b98f912f425dddf53e41221be275a8310a6ea"
+          }
+        },
+        {
+          "client_id": "1002649262718-l33nns8fmih64v8kai0es7buksn7epat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZJhFmespqTQ6wtSTmyMkZX908LLCy-UU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002649262718-l33nns8fmih64v8kai0es7buksn7epat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

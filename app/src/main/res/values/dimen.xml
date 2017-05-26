@@ -1,0 +1,66 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--margin -->
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_small_x">10dp</dimen>
+    <dimen name="margin_small_xx">15dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_medium_x">30dp</dimen>
+    <dimen name="margin_large">40dp</dimen>
+    <dimen name="margin_large_x">50dp</dimen>
+    <dimen name="margin_large_xx">60dp</dimen>
+
+    <!--padding -->
+    <dimen name="padding_tiny">2dp</dimen>
+    <dimen name="padding_super_small">3dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_small_x">10dp</dimen>
+    <dimen name="padding_small_xx">15dp</dimen>
+    <dimen name="padding_medium">20dp</dimen>
+    <dimen name="padding_medium_x">30dp</dimen>
+    <dimen name="padding_large">40dp</dimen>
+    <dimen name="padding_large_x">50dp</dimen>
+    <dimen name="padding_70">70dp</dimen>
+    <dimen name="padding_13">13dp</dimen>
+
+    <!-- icon -->
+    <dimen name="icon_10">10dp</dimen>
+    <dimen name="icon_20">20dp</dimen>
+    <dimen name="icon_24">24dp</dimen>
+    <dimen name="icon_30">30dp</dimen>
+    <dimen name="icon_12">12dp</dimen>
+    <dimen name="icon_50">50dp</dimen>
+    <dimen name="icon_60">60dp</dimen>
+    <dimen name="icon_80">80dp</dimen>
+    <dimen name="icon_90">90dp</dimen>
+    <dimen name="icon_40">40dp</dimen>
+    <dimen name="icon_100">100dp</dimen>
+    <dimen name="icon_110">110dp</dimen>
+    <dimen name="icon_120">120dp</dimen>
+    <dimen name="icon_150">150dp</dimen>
+    <dimen name="icon_200">200dp</dimen>
+
+    <!-- size view-->
+    <dimen name="width_view_sign_in">280dp</dimen>
+    <dimen name="height_view_profile">200dp</dimen>
+    <dimen name="height_navigation_bar">56dp</dimen>
+
+    <!--text size -->
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+
+    <!--corner -->
+    <dimen name="corner_5dp">5dp</dimen>
+</resources>

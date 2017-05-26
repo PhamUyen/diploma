@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="Baloo_Regular" translatable="false">fonts/Baloo-Regular.ttf</string>
+    <string name="OpenSans_Bold" translatable="false">fonts/OpenSans-Bold.ttf</string>
+    <string name="OpenSans_BoldItalic" translatable="false">fonts/OpenSans-BoldItalic.ttf</string>
+    <string name="OpenSans_ExtraBold" translatable="false">fonts/OpenSans-ExtraBold.ttf</string>
+    <string name="OpenSans_ExtraBoldItalic" translatable="false">fonts/OpenSans-ExtraBoldItalic.ttf</string>
+    <string name="OpenSans_Italic" translatable="false">fonts/OpenSans-Italic.ttf</string>
+    <string name="OpenSans_Light" translatable="false">fonts/OpenSans-Light.ttf</string>
+    <string name="OpenSans_LightItalic" translatable="false">fonts/OpenSans-LightItalic.ttf</string>
+    <string name="OpenSans_Regular" translatable="false">fonts/OpenSans-Regular.ttf</string>
+    <string name="OpenSans_Semibold" translatable="false">fonts/OpenSans-Semibold.ttf</string>
+    <string name="OpenSans_SemiboldItalic" translatable="false">fonts/OpenSans-SemiboldItalic.ttf</string>
+
+</resources>

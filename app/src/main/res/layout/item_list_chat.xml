@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:id="@+id/content_item"
+              android:background="@color/color_green"
+              android:layout_width="match_parent"
+              android:padding="@dimen/padding_small_x"
+              android:layout_height="wrap_content">
+    <com.uyenpham.diploma.myenglish.customviews.customviews.imageview.CircleImageView
+        android:id="@+id/imv_profile"
+        android:src="@drawable/drag_icon"
+        android:layout_width="@dimen/icon_60"
+        android:layout_height="@dimen/icon_60"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_gravity="center"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_17"
+        android:text="aaaaaaaaaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

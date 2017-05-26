@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_pan"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/conten_word"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroud_listview">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="hello"
+                    android:textColor="@color/color_green"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/tv_pronun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_word"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="/hello/"
+                    android:textColor="@color/color_green"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_mean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_pronun"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="xin chao"
+                    android:textColor="@color/color_green"
+                    android:textSize="17sp"/>
+
+                <ImageView
+                    android:id="@+id/imv_speaker"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_mean"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icon_loa"/>
+
+                <TextView
+                    android:id="@+id/tv_explain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imv_speaker"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="fjkafkdskjfnkgfdnagldsnfjdsbkjfndsgnjnkdsnfjnglkffngkfngkdnsgk"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_green"
+                    android:textSize="16sp"/>
+
+                <com.uyenpham.diploma.myenglish.customviews.imageview.CircleImageView
+                    android:id="@+id/imv_word_photo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/tv_explain"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/family_group"/>
+
+                <TextView
+                    android:id="@+id/tv_example"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imv_word_photo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="fjkafkdskjfnkgfdnagldsnfjdsbkjfndsgnjnkdsnfjnglkffngkfngkdnsgk"
+                    android:textAlignment="center"
+                    android:textColor="@color/color_green"
+                    android:textSize="16sp"/>
+
+                <ImageView
+                    android:id="@+id/imv_recorder"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_example"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/icon_recorder"/>
+
+                <TextView
+                    android:id="@+id/tv_notable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imv_recorder"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="/hello/"
+                    android:textColor="@color/color_green"
+                    android:textSize="16sp"
+                    android:visibility="invisible"/>
+            </RelativeLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imv_back"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:adjustViewBounds="true"
+            android:rotation="180"
+            android:src="@drawable/icon_next"/>
+
+        <ImageView
+            android:id="@+id/imv_next"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon_next"/>
+    </RelativeLayout>
+</RelativeLayout>

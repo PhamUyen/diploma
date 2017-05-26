@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cardView_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_small"
+                android:orientation="vertical"
+                android:background="@drawable/backgroud_listview"
+    >
+
+    <TextView
+        android:id="@+id/group_name"
+        style="@style/BalooTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:maxLines="1"
+        android:text="@string/txt_friend"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size_17"
+        />
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/view_photo"
+        android:layout_below="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/icon_100"
+            android:layout_height="@dimen/icon_100"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_small_x"
+            android:src="@drawable/bg_avata"/>
+
+        <com.uyenpham.diploma.myenglish.customviews.imageview.CircleImageView
+            android:id="@+id/group_photo"
+            android:layout_width="@dimen/icon_80"
+            android:layout_height="@dimen/icon_80"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:src="@drawable/color_group"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/group_name_vn"
+        style="@style/BalooTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="màu sắc"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size_17"
+        />
+
+</RelativeLayout>
+

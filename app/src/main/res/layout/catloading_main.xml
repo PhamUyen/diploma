@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:background="@color/transparent"
+    >
+
+    <ImageView
+        android:id="@+id/mouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mouse"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/cat"/>
+
+        <ImageView
+            android:id="@+id/eye_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3.5dp"
+            android:layout_marginTop="12.5dp"
+            android:src="@drawable/eyes"/>
+
+        <com.uyenpham.diploma.yourfacebook.customviews.catloading.EyelidView
+            android:id="@+id/eyelid_left"
+            android:layout_width="17dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="3.5dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/eyes"/>
+
+        <ImageView
+            android:id="@+id/eye_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="12.5dp"
+            android:src="@drawable/eyes"/>
+
+        <com.uyenpham.diploma.yourfacebook.customviews.catloading.EyelidView
+            android:id="@+id/eyelid_right"
+            android:layout_width="15dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/eyes"/>
+    </RelativeLayout>
+
+    <com.uyenpham.diploma.yourfacebook.customviews.catloading.GraduallyTextView
+        android:id="@+id/graduallyTextView"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="L O A D I N G ..."
+        android:textColor="@color/color_main"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

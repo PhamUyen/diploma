@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/main_layout"
+              android:background="@drawable/bg_pan"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:padding="@dimen/padding_small"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                android:maxLines="1"
+                android:textSize="@dimen/text_size_18"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:id="@+id/tv_drag1"
+                android:layout_marginRight="@dimen/margin_small_x"
+                android:background="@drawable/backgroud_listview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:maxLines="1"
+                android:textSize="@dimen/text_size_18"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:id="@+id/tv_drag2"
+                android:textAlignment="center"
+                android:background="@drawable/backgroud_listview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="@dimen/padding_small"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:maxLines="1"
+                android:textSize="@dimen/text_size_18"
+                android:textColor="@color/colorAccent"
+                android:gravity="center"
+                android:id="@+id/tv_drag3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_small_x"
+                android:layout_weight="1"
+                android:background="@drawable/backgroud_listview"
+                />
+
+            <TextView
+                android:maxLines="1"
+                android:textSize="@dimen/text_size_18"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/tv_drag4"
+                android:gravity="center"
+                android:background="@drawable/backgroud_listview"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_small">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_small_x"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.uyenpham.diploma.myenglish.customviews.imageview.RoundesImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_weight="3"
+                    android:src="@drawable/family_group"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tv_answer_1"
+                    android:textSize="@dimen/text_size_18"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_empty_letter"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.uyenpham.diploma.myenglish.customviews.imageview.RoundesImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_weight="3"
+                    android:src="@drawable/family_group"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tv_answer_2"
+                    android:textSize="@dimen/text_size_18"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_empty_letter"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_small">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_small_x"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.uyenpham.diploma.myenglish.customviews.imageview.RoundesImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_weight="3"
+                    android:src="@drawable/family_group"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tv_answer_3"
+                    android:textSize="@dimen/text_size_18"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_empty_letter"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.uyenpham.diploma.myenglish.customviews.imageview.RoundesImageView
+                    android:id="@+id/image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_weight="3"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/family_group"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tv_answer_4"
+                    android:textSize="@dimen/text_size_18"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_empty_letter"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

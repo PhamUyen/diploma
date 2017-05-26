@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyEnglish</string>
+
+    <string name="txt_signin_fb">Sign in with Facebook</string>
+    <string name="txt_sign_up_1">Sign up</string>
+    <string name="txt_or">OR</string>
+    <string name="txt_sign_in">SIGN IN</string>
+    <string name="hint_ed_username">Name</string>
+    <string name="hint_ed_pass">Password</string>
+    <string name="txt_forgot_pass"><u>Forgot password?</u></string>
+    <string name="txt_sign_up"><font name="txt_new_here"><font color="#ffffff">New here?</font><font color="#27ae39" /><u>Sign Up</u></font></string>
+
+    <!-- tab -->
+    <string name="txt_video">Page</string>
+    <string name="txt_chat">Chat</string>
+    <string name="txt_photo">Photo</string>
+    <string name="txt_friend">Friend</string>
+    <string name="txt_profile">Profile</string>
+
+    <!--photo -->
+    <string name="txt_gallery">Choose gallery</string>
+    <string name="txt_take">Take photo</string>
+
+    <!--sign in/sigup -->
+    <string name="txt_email">Email</string>
+    <string name="txt_user_name">Username : </string>
+    <string name="txt_pass">Password</string>
+
+    <!--facebook -->
+    <string name="facebook_app_id">740685892749907</string>
+
+
+    <string name="play_button">Play button</string>
+    <string name="null_time">0:00</string>
+    <string name="open_video_in_youtube">Open video in YouTube</string>
+    <string name="full_screen_button">Full screen button</string>
+</resources>

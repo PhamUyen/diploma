@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/activity_choose_type_question"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="@drawable/bg_pan"
+              android:orientation="vertical"
+              >
+            <me.crosswall.lib.coverflow.core.PagerContainer
+                android:layout_centerInParent="true"
+                android:id="@+id/pager_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:paddingBottom="@dimen/padding_small"
+                android:paddingTop="@dimen/padding_small"
+                android:visibility="visible">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager_room"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                </android.support.v4.view.ViewPager>
+
+            </me.crosswall.lib.coverflow.core.PagerContainer>
+</RelativeLayout>

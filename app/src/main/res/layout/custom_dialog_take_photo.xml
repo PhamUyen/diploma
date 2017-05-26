@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_large"
+    android:paddingLeft="@dimen/padding_large"
+    android:paddingRight="@dimen/padding_large_x"
+    android:paddingTop="@dimen/padding_large">
+
+    <LinearLayout
+        android:id="@+id/btn_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small_x"
+            android:text="@string/txt_gallery"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_size_17" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium_x"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small_x"
+            android:text="@string/txt_take"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_size_17" />
+    </LinearLayout>
+
+</LinearLayout>

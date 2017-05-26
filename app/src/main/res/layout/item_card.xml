@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:id="@+id/item_card"
+                android:padding="@dimen/padding_tiny">
+
+    <ImageView
+        android:id="@+id/card_front"
+        android:visibility="visible"
+        android:layout_width="@dimen/icon_90"
+        android:layout_height="@dimen/icon_90"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_quest"/>
+    <RelativeLayout
+        android:visibility="gone"
+        android:background="@drawable/bg_corner_with_black_border"
+        android:id="@+id/card_back"
+        android:layout_width="@dimen/icon_90"
+        android:layout_height="@dimen/icon_90">
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/card_image_type"
+            android:layout_width="@dimen/icon_80"
+            android:layout_height="@dimen/icon_80"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+           />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/card_text_type"
+            android:textSize="@dimen/text_size_17"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:textColor="@color/color_green"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>

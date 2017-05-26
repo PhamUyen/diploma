@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/vocabulary_icon"
+        title="Vocabulary"
+        barColorWhenSelected="@color/color_tab_profile" />
+    <tab
+        id="@+id/tab_friend"
+        icon="@drawable/game_icon"
+        title="pronounce"
+        barColorWhenSelected="@color/color_tab_friend" />
+    <tab
+        id="@+id/tab_chat"
+        icon="@drawable/game_icon"
+        title="Game"
+        barColorWhenSelected="@color/color_tab_video" />
+    <tab
+        id="@+id/tab_photo"
+        icon="@drawable/setting_icon"
+        title="Setting"
+        barColorWhenSelected="@color/color_tab_chat"/>
+</tabs>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--text style for title text in action bar-->
+    <style name="TitleTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_40</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="fontPath">@string/OpenSans_Bold</item>
+    </style>
+
+    <!--text style for header text in item of listview/recyclerview in app-->
+    <style name="ListItemHeaderTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_30</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <!--text style for content text in item of listview/recyclerview in app-->
+    <style name="ListItemContentTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <!--text style for header text of listview/recyclerview in app-->
+    <style name="ListViewHeaderTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_40</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <!--text style for text in tab bar (focus)-->
+    <style name="TabBarFocusTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="TabBarTextStyleLarge" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:textSize">@dimen/text_size_30</item>
+        <item name="android:lines">1</item>
+        <item name="fontPath">@string/OpenSans_Regular</item>
+    </style>
+
+    <!--text style for text in tab bar (normal)-->
+    <style name="TabBarNormalTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:textSize">@dimen/text_size_40</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <!--text style for big text in app (Event title, ..)-->
+    <style name="BigTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_40</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <!--text style for choice text in app-->
+    <style name="ChoiceTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_30</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="BigTextSerial" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_40</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_green</item>
+    </style>
+    <!--home screen -->
+    <style name="LevelTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:textColor">@color/color_green</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="ChallengeNameTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:textColor">@color/clor_black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ems">8</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ChallengeLevelTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/clor_black</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="HistoryChallengeNameTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ems">25</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="HistoryChallengeDescriptTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:ems">30</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="BalooTextStyle">
+        <item name="fontPath">@string/Baloo_Regular</item>
+    </style>
+
+    <style name="NormalTextStyle">
+        <item name="fontPath">@string/OpenSans_Regular</item>
+    </style>
+
+    <style name="NormalBoldTextStyle">
+        <item name="fontPath">@string/OpenSans_Semibold</item>
+    </style>
+
+    <style name="TitleBoldTextStyle">
+        <item name="fontPath">@string/OpenSans_Bold</item>
+    </style>
+
+    <style name="BoldTextStyle">
+        <item name="fontPath">@string/OpenSans_Bold</item>
+    </style>
+
+    <style name="OpenSans_Italic">
+        <item name="fontPath">@string/OpenSans_Italic</item>
+    </style>
+
+    <style name="OpenSans_Light">
+        <item name="fontPath">@string/OpenSans_Light</item>
+    </style>
+
+    <style name="OpenSans_LightItalic">
+        <item name="fontPath">@string/OpenSans_LightItalic</item>
+    </style>
+
+    <style name="OpenSans_SemiboldItalic">
+        <item name="fontPath">@string/OpenSans_SemiboldItalic</item>
+    </style>
+
+
+    <style name="SemiBoldTextStyle">
+        <item name="fontPath">@string/OpenSans_Semibold</item>
+    </style>
+
+    <style name="LightTextStyle">
+        <item name="fontPath">@string/OpenSans_Light</item>
+    </style>
+
+    <style name="RegularTextStyle">
+        <item name="fontPath">@string/OpenSans_Regular</item>
+    </style>
+
+    <style name="ExtraBoldTextStyle">
+        <item name="fontPath">@string/OpenSans_ExtraBold</item>
+    </style>
+</resources>
+
+
+
+
+
+
+
